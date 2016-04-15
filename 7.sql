@@ -1,4 +1,8 @@
 --7) Os nomes dos eleitores que votaram para vereador em 1998. (0,8)
 
-SELECT *
-FROM VOTACAO
+SELECT E.NOME
+FROM VOTACAO V, CANDIDATO C, ELEITOR E
+WHERE V.ANO = 1998
+AND C.NUMERO = V.CANDIDATO
+AND C.CARGO = 'Vereador'
+AND E.TITULO = V.ELEITOR
