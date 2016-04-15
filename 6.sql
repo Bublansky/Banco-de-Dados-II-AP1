@@ -1,0 +1,8 @@
+--6) Os nomes dos eleitores da seção 40 que não votaram em 1998. (0,8)
+
+SELECT DISTINCT(E.NOME)
+FROM ELEITOR E, SECAO S, VOTACAO V
+WHERE S.NUMERO = E.SECAO
+AND S.NUMERO = 40
+AND E.TITULO = V.ELEITOR
+AND V.ANO <> 1998

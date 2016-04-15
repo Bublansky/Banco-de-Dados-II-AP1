@@ -1,0 +1,1 @@
+--11)O nome do partido do vereador mais votado de 1998. (0,9)

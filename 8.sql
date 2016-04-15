@@ -1,0 +1,1 @@
+--8) O número de votos recebidos em 1998 para o cargo de “Vereador”, por partido.

@@ -1,0 +1,1 @@
+--12)A sigla do partido que elegeu o Prefeito de 1998. (0,9)

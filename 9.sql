@@ -1,0 +1,1 @@
+--9) Os nomes dos candidatos que não obtiveram nenhum voto na eleição de 2006.

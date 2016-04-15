@@ -1,0 +1,7 @@
+-- 3. Os nomes dos eleitores da seção 32 que votaram no ano 2000.
+
+SELECT E.NOME
+FROM VOTACAO C, ELEITOR E, SECAO S
+WHERE C.ANO = 2000
+AND C.ELEITOR = E.TITULO
+AND S.NUMERO = E.SECAO
